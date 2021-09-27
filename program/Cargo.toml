@@ -8,6 +8,12 @@ publish = false
 [dependencies]
 solana-program = "1.6.12"
 solana-validator = { version = "1.6.12", optional = true }
+solana-sdk = "1.6.12"
+num-derive = "0.2"
+num-traits = "0.2"
+serde = { version = "1.0.100", default-features = false, features = ["alloc", "derive"] }
+serde_derive = "1.0"
+thiserror = "1.0"
 
 [features]
 test-bpf = ["solana-validator"]
@@ -15,12 +21,6 @@ test-bpf = ["solana-validator"]
 [dev-dependencies]
 assert_matches = "1.4.0"
 solana-program-test = "1.6.12"
-solana-sdk = "1.6.12"
-num-derive = "0.2"
-num-traits = "0.2"
-serde = { version = "1.0.100", default-features = false, features = ["alloc", "derive"] }
-serde_derive = "1.0"
-thiserror = "1.0"
 
 [lib]
 crate-type = ["cdylib", "lib"]

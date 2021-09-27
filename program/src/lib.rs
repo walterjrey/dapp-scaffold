@@ -3,12 +3,12 @@ extern crate serde;
 extern crate serde_derive;
 extern crate solana_sdk;
 
-mod dashboard;
-mod error;
-mod game;
-mod program_command;
-mod program_state;
-mod simple_serde;
+//mod dashboard;
+//mod error;
+//mod game;
+//mod program_command;
+//mod program_state;
+//mod simple_serde;
 
 use crate::error::SolanaPokerError;
 use program_command::Command;

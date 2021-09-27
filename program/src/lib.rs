@@ -88,7 +88,7 @@ impl Room {
         let mut i = 0;
         while i < vec.len() {
             let PubKey currentPlayer = &mut self.players.get(i);
-            if currentPlayer == player) {
+            if currentPlayer == player {
                 self.players[i].remove(i);
             } else {
                 i += 1;

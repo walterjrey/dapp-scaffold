@@ -17,6 +17,8 @@ pub enum SolanaPokerError {
     InvalidTimestamp,
     #[error("player not found")]
     PlayerNotFound,
+    #[error("Token transfer failed")]
+    TokenTransferFailed
 }
 
 impl From<SolanaPokerError> for ProgramError {

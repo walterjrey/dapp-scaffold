@@ -12,7 +12,7 @@ mod program_command;
 //mod game;
 //mod program_command;
 //mod program_state;
-//mod simple_serde;
+mod simple_serde;
 
 use crate::utils::{spl_token_transfer};
 use crate::error::SolanaPokerError;

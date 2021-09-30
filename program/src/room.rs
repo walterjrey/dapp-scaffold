@@ -25,8 +25,7 @@ use solana_sdk::{
     info,
     program_error::{PrintProgramError, ProgramError},
     program_utils::next_account_info,
-    pubkey::Pubkey,
-    sysvar::{clock::Clock, Sysvar},
+    pubkey::Pubkey
 };
 use spl_token::state::Account;
 
